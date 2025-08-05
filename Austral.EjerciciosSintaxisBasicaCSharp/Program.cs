@@ -3,12 +3,19 @@
 // =====================
 
 // a) Declarar una variable con el nombre de una empresa y mostrarla por consola.
+//string empresa = "asus";
+//Console.WriteLine(empresa);
 
 // b) Declarar una variable con la cantidad de empleados y mostrarla por consola.
+//int cantidad = 5;
+//Console.WriteLine(cantidad);
 
 // c) Declarar una variable decimal con el ingreso mensual estimado.
+//decimal ingreso = 125.99m;
+//Console.WriteLine(ingreso);
 
 // d) Mostrar por consola un mensaje que diga el nombre de la empresa, cantidad e empleados e ingreso.
+//Console.WriteLine("nombre de la empresa " + empresa + " ,cantidad de empleado :" + cantidad + " e  ingreso: " + ingreso);
 
 
 // ==============
@@ -16,14 +23,31 @@
 // ==============
 
 // a) Declarar dos precios de productos y calcular el total de los dos con IVA.
+using System.Diagnostics.CodeAnalysis;
+
+//int producto1 = 150;
+//int producto2 = 200;
+//int Suma = producto1 + producto2;
+//var iva = Suma * 21 / 1000;
+//Console.WriteLine(iva);
+
+
 
 // b) En base a la siguiente variable -> int ingresoAnual = 1500;
 //    Hacer otra variable que represente el ingreso mensual y mostrarla por consola.
+//int ingresoAnual = 1500;
+//int ingresoMensual = 1500 / 12;
+//Console.WriteLine(ingresoMensual);
 
 // c) Crear una variable que represente si el ingreso anual es mayor a 1000 o no.
+//int ingresoAnual = 1000;
+//Console.WriteLine(ingresoAnual >= 1000);
 
 // d) Calcular cuánto gana una empresa por mes si su ingreso anual es 1500
 //    y tiene que pagar 12% de impuestos al estado.
+int ingresoAnual = 1500;
+int impuesto = ingresoAnual * 12 / 1000;
+Console.WriteLine(impuesto);
 
 
 // ==========================
