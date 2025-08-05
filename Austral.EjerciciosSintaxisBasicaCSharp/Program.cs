@@ -4,7 +4,7 @@
 
 // a) Declarar una variable con el nombre de una empresa y mostrarla por consola.
 //string empresa = "asus";
-//Console.WriteLine(empresa);
+//Console.WriteLine($"nombre de la empresa {empresa});
 
 // b) Declarar una variable con la cantidad de empleados y mostrarla por consola.
 //int cantidad = 5;
@@ -45,9 +45,9 @@ using System.Diagnostics.CodeAnalysis;
 
 // d) Calcular cuánto gana una empresa por mes si su ingreso anual es 1500
 //    y tiene que pagar 12% de impuestos al estado.
-int ingresoAnual = 1500;
-int impuesto = ingresoAnual * 12 / 1000;
-Console.WriteLine(impuesto);
+//int ingresoAnual = 1500;
+//int impuesto = ingresoAnual * 12 / 1000;
+//Console.WriteLine(impuesto);
 
 
 // ==========================
